@@ -1,0 +1,135 @@
+body
+{
+    background-color: beige;
+}
+.container 
+{
+    margin-top: 50px;
+    width:100%;
+    height :30px;
+    background-color: brown;
+}
+.body1
+{
+    position: relative;
+    background-color: rgb(226, 227, 221);
+    max-width: 1350px;
+    min-height: 1000px;
+    margin-top: 0%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 50px;
+}
+.leftsplit
+{
+    background-color: whitesmoke;
+    max-height: max-content;
+
+
+}
+.container .headline
+{
+   color:white;
+   font-size: 1.2em;
+   font-style: bold ;
+   text-align: center;
+   margin-top: 60px;
+   font-weight: 700;
+   height: 10px;
+}
+.forme {
+    display: block;
+    margin-top: 1.3em;
+    size: 30px;
+    
+  }
+  
+.text 
+{
+    position:relative;
+    color: rgba(165, 42, 42, 0.4);
+    text-align: center;
+    margin-top: 300px;
+    margin-top: 10px;
+}
+
+
+.item
+{
+    position: absolute;
+    margin-left: 10px;
+    font-size: 1.2em;
+
+}
+#icon
+{
+   position: relative;
+   visibility: hidden;
+}
+small
+{
+    position: absolute;
+    bottom: 0;
+    left:0;
+   visibility: hidden;
+}
+img
+{
+    position: relative;
+    margin-left: 40px;
+    width: 120px;
+    height: 120px;
+    margin-top: 10px
+}
+.inserer
+{
+    
+    margin-left: 40px; 
+
+}
+.headline h3
+{
+    margin-top:2px;
+    color: white;
+}
+.gender
+{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.body1 .rightsplit 
+{
+    position: relative;
+    background-color: antiquewhite;
+    padding: 40px;
+}
+button
+{
+    margin-top: 30px;
+    text-align: center;
+
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(152, 98, 98);
+    color: black;
+}
+.val
+{
+ position: relative;
+ margin-right: 10px;
+}
+.fa_fa-check-circle
+{
+    color: green;
+    visibility: visible;
+}
+.fa_fa-exclamation-circle
+{
+    color: red;
+    visibility: visible;
+}
